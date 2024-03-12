@@ -1,0 +1,35 @@
+---
+compiled_package_info:
+  package_name: eden_x_tasks
+  address_alias_instantiation:
+    Extensions: "0000000000000000000000000000000000000000000000000000000000000001"
+    admin_addr: ad007d5cab33a5147aa1d8d46b00f76e9454d5467a5b007e96a705504f22efbd
+    aptos_framework: "0000000000000000000000000000000000000000000000000000000000000001"
+    aptos_std: "0000000000000000000000000000000000000000000000000000000000000001"
+    aptos_token: "0000000000000000000000000000000000000000000000000000000000000003"
+    core_resources: 000000000000000000000000000000000000000000000000000000000a550c18
+    eden_tasks: ef184ee1115d253535bee5e2b8f99c8f3ac399e6344b925cf3ecf6358b7de317
+    edenx: 524578991089b9ed0c77bc450250a59ebe03a5b744cef9406c9de6eec79925ae
+    source_addr: ef184ee1115d253535bee5e2b8f99c8f3ac399e6344b925cf3ecf6358b7de317
+    std: "0000000000000000000000000000000000000000000000000000000000000001"
+    vm_reserved: "0000000000000000000000000000000000000000000000000000000000000000"
+  source_digest: 62FD32A77038B2D1C7814ED53FC38AC30D6A0B41F295CBAC243B037CC61EAD16
+  build_flags:
+    dev_mode: false
+    test_mode: false
+    generate_docs: false
+    generate_abis: false
+    install_dir: ~
+    force_recompilation: false
+    additional_named_addresses:
+      edenx: 524578991089b9ed0c77bc450250a59ebe03a5b744cef9406c9de6eec79925ae
+      source_addr: ef184ee1115d253535bee5e2b8f99c8f3ac399e6344b925cf3ecf6358b7de317
+    architecture: ~
+    fetch_deps_only: false
+    skip_fetch_latest_git_deps: false
+    bytecode_version: ~
+dependencies:
+  - AptosFramework
+  - AptosStdlib
+  - AptosToken
+  - MoveStdlib
